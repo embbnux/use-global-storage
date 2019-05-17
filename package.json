@@ -1,6 +1,6 @@
 {
   "name": "use-global-storage",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "main": "build/index.js",
   "repository": "https://github.com/embbnux/use-global-storage.git",
   "license": "MIT",

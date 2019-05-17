@@ -19,7 +19,7 @@ export default function useGlobalStorage({ storageOptions } : { storageOptions: 
       return () => {
         subcription.unsubscribe();
       };
-    });
+    }, []);
 
     const setData = async(newData: any) => {
       let newValue;
