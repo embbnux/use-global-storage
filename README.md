@@ -1,5 +1,7 @@
 # use-global-storage
 
+[![NPM Version](https://img.shields.io/npm/v/use-global-storage.svg?style=flat-square)](https://www.npmjs.com/package/use-global-storage)
+
 React Hook to connect storage and state. You can use this as a global state manager in React.
 
 ## Install
