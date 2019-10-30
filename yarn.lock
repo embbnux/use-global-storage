@@ -2349,14 +2349,14 @@ ripemd160@^2.0.0, ripemd160@^2.0.1:
     hash-base "^3.0.0"
     inherits "^2.0.1"
 
-rt-storage@^0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/rt-storage/-/rt-storage-0.0.2.tgz#aca658b584dc1207c6793bf1d3cf31845eb8271c"
-  integrity sha512-uAomN99GDNTn7ZZItuwJBOvFF6s7SZO4s+/ZzC5AAL4ayznfpJflX9f3eu0boYXHNNViwBVVd+UBxKnQi2SKlQ==
+rt-storage@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/rt-storage/-/rt-storage-0.1.0.tgz#6a06248e113033525215466f029df78e8985ccdf"
+  integrity sha512-wHZtxiH3M1xIGmRuZbs3wlA98pRPAjg5ouGB+OhKiVQ70utPq2gahmTpkei+T+ZUQ9uEimphKR5X4NegzSMWpg==
   dependencies:
     localforage "^1.7.3"
     rxjs "^6.4.0"
-    uuid "^3.3.2"
+    uuid "^3.3.3"
 
 run-queue@^1.0.0, run-queue@^1.0.3:
   version "1.0.3"
@@ -2890,10 +2890,10 @@ util@^0.11.0:
   dependencies:
     inherits "2.0.3"
 
-uuid@^3.3.2:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
-  integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
+uuid@^3.3.3:
+  version "3.3.3"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.3.tgz#4568f0216e78760ee1dbf3a4d2cf53e224112866"
+  integrity sha512-pW0No1RGHgzlpHJO1nsVrHKpOEIxkGg1xB+v0ZmdNH5OAeAwzAVrCnI2/6Mtx+Uys6iaylxa+D3g4j63IKKjSQ==
 
 v8-compile-cache@^2.0.2:
   version "2.0.2"

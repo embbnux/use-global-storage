@@ -1,15 +1,18 @@
 {
   "name": "use-global-storage",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "main": "build/index.js",
-  "repository": "https://github.com/embbnux/use-global-storage.git",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/embbnux/use-global-storage.git"
+  },
+  "homepage": "https://github.com/embbnux/use-global-storage#readme",
   "license": "MIT",
   "scripts": {
     "prepublish": "tsc && webpack",
     "tsc": "tsc",
     "build": "webpack",
-    "watch": "webpack --watch",
-    "dev-server": "http-server"
+    "watch": "webpack --watch"
   },
   "devDependencies": {
     "react": "^16.8.6",
@@ -20,9 +23,16 @@
     "webpack-cli": "^3.2.1"
   },
   "dependencies": {
-    "rt-storage": "^0.0.2"
+    "rt-storage": "^0.1.0"
   },
   "peerDependencies": {
     "react": "^16.8.6"
-  }
+  },
+  "keywords": [
+    "react",
+    "hooks",
+    "storage",
+    "global storage",
+    "state management"
+  ]
 }
